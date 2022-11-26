@@ -1,0 +1,1264 @@
+.body{
+    width: 100%;
+}
+
+/* Bloque 1 */
+
+.bloque1 {
+    background-image: url(../CSS/Imagenes/fondo.jpg);
+    background-size: contain;
+    display: flex;
+    height: 500px;
+    max-width: 100%;
+}
+
+.encabezado {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+}
+
+.nombre_pagina {
+    justify-content: flex-start;
+    align-items: center;
+    color: #2C4CCA;
+    padding-left: 5%;
+    font-family: 'Poppins', sans-serif;
+    width: 30%;
+
+}
+
+.navegacion {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 60%;
+}
+
+.lista {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    border: none;
+    color: #748198;
+    background-color: white;
+}
+
+.titulo1 {
+    font-family: 'Poppins', sans-serif;
+    color: #1F3E72;
+    font-size: 25px;
+    margin-bottom: -25px;
+}
+
+img.icono1,
+img.icono3 {
+    height: 10px;
+    width: 10px;
+}
+
+img.icono1 {
+    width: 15px;
+    height: 15px;
+    filter: invert(0.4) sepia(1), hue-rotate(20deg) saturate(1000%);
+}
+
+img.icono3 {
+    height: 12px;
+    width: 12px;
+}
+
+.contenedor2,
+.contenedor1 {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFAE7;
+    box-shadow: 0px 7px 15px #f6e4a5;
+    border-radius: 2px;
+}
+
+.contenedor3 {
+    height: 20px;
+    width: 20px;
+    background-color: #E9F0FD;
+    box-shadow: 0px 3px 6px #a7bde9f6;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 6px;
+    margin-right: 3px;
+    border-color: #FAFAFF;
+}
+
+.marcador2,
+.marcador1 {
+    padding-left: 3px;
+}
+
+.marcador3 {
+    font-size: 13px;
+}
+
+.iconos1 {
+    display: flex;
+}
+
+.bloque1-izquierda {
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 40%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #7e7973;
+}
+
+.p1 {
+    line-height: 1.5;
+    padding-right: 30%;
+    color: #748198;
+
+}
+
+.iconos1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    color: #274577;
+}
+
+.boton3 {
+    display: block;
+    font-size: 12px;
+    color: #243a69;
+    margin-left: -6px;
+
+}
+
+
+
+.bloque1-derecha {
+    width: 50%;
+    background-image: url(../CSS/Imagenes/fondo1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+
+}
+
+.boton1,
+.boton2 {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.boton3 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.marcador3 {
+    font-weight: 700;
+}
+
+.bloquemedio1 {
+    display: flex;
+    position: absolute;
+    left: 85px;
+    top: 480px;
+    background-color: #FCFDFE;
+    width: 600px;
+    justify-content: space-around;
+    border-radius: 6px;
+    font-size: 13px;
+    flex-wrap: wrap;
+    overflow-wrap: normal;
+    box-shadow: -1px 5px 20px rgba(39, 38, 38, 0.434);
+}
+
+
+.minibloque1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.bloq {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #9EA7B7;
+    flex-wrap: wrap;
+}
+
+.minibloq4 {
+    display: flex;
+    align-items: center;
+    align-content: center;
+
+}
+
+.Submit {
+    background-color: #3353D1;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    padding: 5px;
+    width: 67px;
+    box-shadow: -1px 5px 20px rgba(39, 38, 38, 0.434);
+}
+
+.location-sub1,
+.location-sub2,
+.location-sub3 {
+    padding-left: 20px;
+    margin-top: -5px;
+    color: #243a69;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+
+}
+
+.location-sub1 {
+    padding-left: 24px;
+}
+
+.location-sub2 {
+    padding-left: 30px;
+}
+
+.location-sub3 {
+    padding-left: 26px;
+}
+
+.location {
+    padding-left: 5px;
+}
+
+img.icono1-1,
+img.icono1-2,
+img.icono1-3 {
+    height: 12px;
+    width: 12px;
+    padding-right: 0px;
+    margin-right: 5px;
+    filter: invert(0.4) sepia(1), hue-rotate(20deg) saturate(1000%);
+
+    border-radius: 2px;
+    display: flex;
+
+}
+
+.contenedoricono1 {
+    height: 20px;
+    width: 20px;
+    background-color: #E9F0FD;
+    box-shadow: 0px 3px 6px #a7bde9f6;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+/* Bloque 2 */
+
+.bloque2{
+    height: 150px;
+    background-image: url(../CSS/Imagenes/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+img.vacunas{
+    display: block;
+    margin-left: auto;
+  margin-right: auto;
+
+}
+
+/* Bloque 3 */
+
+.bloque3{
+    background-image: url(../CSS/Imagenes/fondo.jpg);
+    width: 90%;
+    height: 415px;
+    background-size: cover;
+    background-position: 200px;
+    padding-left: 5%;
+    padding-top: 50px;
+    padding-right: 5%;
+}
+
+.sectionminibloques3{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.cuatrominibloq1{
+    width: 200px;
+    height: 230px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #2C4CCA;
+    margin: 5px;
+    background-color: #FCFDFE;
+    box-shadow: -1px 5px 20px rgba(39, 38, 38, 0.434);
+
+
+}
+
+#farming-antibodies{
+    margin-bottom: 36px;
+}
+
+.contenedoricono{
+    height: 25px;
+    width: 25px;
+    background-color: #F1F5FF;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 5px;
+}
+
+
+.iconosbloq1{
+    height: 20px;
+    width: 20px;
+}
+
+.iconosbloq2{
+    height: 20px;
+    width: 20px;
+}
+
+.iconosbloq3{
+    height: 25px;
+    width: 25px;
+}
+
+
+.titulobloque3{
+    font-family: 'Poppins', sans-serif;
+    color: #1F3E72;
+    font-size: 20px;
+    padding-top: 0px;
+    margin-top: -50px;
+    width: 50%;
+}
+
+.parrafobloque3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #748198;
+    width: 30%;
+    text-align: justify;
+    margin-top: -15px;
+}
+
+.cuatrosubtitulo{
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #274577;
+    margin-top: 0px;
+    margin-bottom: -5px;
+}
+
+.cuatroparrafo{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #748198;
+    text-align: left;
+    font-size: 14px;
+}
+
+.minibloq4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #9EA7B7;
+}
+
+/* Bloque 4 */
+
+.bloque4{
+    padding-bottom: 100px;
+    width: 100%;
+    height: 650px;
+    display: flex;
+    align-content: center;
+    background: linear-gradient(-42.5deg,#F4F6FB 50px,rgb(255, 255, 255) 0); 
+
+}
+
+.bloque4-izquierda{
+    width: 45%;
+    background-image: url(../CSS/Imagenes/fondo2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.bloque4-derecha{
+    display: flex;
+    flex-direction: column;
+width: 45%;
+padding-left: 5%;
+}
+
+.subbloq4{
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #274577;
+}
+
+.pbloq4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #748198;
+    font-size: 15px;
+}
+
+.cajadesplegablebloque4{
+    align-content: space-between;
+
+}
+
+.cajabloq4{
+    margin-top: 15px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:60px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #FAFAFF;
+    align-content: space-around;
+}
+
+.contenedoricono-fondobloq4{
+width: 20%;
+}
+
+.subcajabloq4{
+    width: 70%;
+}
+
+.contenedorflechasbloq4{
+ width: 10%;
+}
+
+.contenedorbloq4{
+    margin-left: 2%;
+    height: 15px;
+    width: 15px;
+    background-color: #F1F5FF;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconobloq4{
+    height: 10x;
+    width: 10px;
+    transform: rotate(180deg);
+}
+
+.subcajabloq4{
+    margin-left: 2%;
+    text-align: left;
+font-family: 'Poppins', sans-serif;
+font-size: 10px;
+color: #274577;
+}
+
+.contenedorflechasbloq4{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+}
+
+.contenedorflecha{
+    height: 15px;
+    width: 15px;
+    background-color: #F1F5FF;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.iconoarriba{
+    height: 7px;
+    width: 7px;
+    transform: rotate(180deg);
+}
+
+/*Bloque 5*/
+
+.bloque5-superior{
+    height: 260px;
+    width: 100%;
+    display: flex;
+    background: linear-gradient(-135deg,#F4F6FB 50px,rgb(255, 255, 255) 0); 
+    overflow: hidden;
+}
+
+.bloque5-derecha1{
+    width: 50%;
+    border-style: solid;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    border-color: #F7F8FD;
+}
+
+.bloque5-izquierda1{
+    width: 50%;
+    padding-left: 5%;
+}
+
+
+.titulobloque5{
+    font-family: 'Poppins', sans-serif;
+    color: #1F3E72;
+}
+
+.pbloque5sup{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #748198;
+    margin-top: 40px;
+    width: 70%;
+}
+
+.bloque5-inferior{
+    display: flex;
+    width: 100%;
+    align-content: center;
+    align-items: center;
+}
+
+.bloque5-izquierda2{
+    display: flex;
+height: 100%;
+width: 50%;
+padding-left: 5%;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloque5-derecha2{
+    margin-left: 5%;
+position:relative;
+height: 400px;
+width: 45%;
+background-image: url(../CSS/Imagenes/blue-background-1377807968zmS.png);
+background-size: cover;
+}
+
+.bloq5doctor{
+    height: 160%;
+    width: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 40px;
+}
+
+.bloque5-inferior{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.bloque5izq-sup1{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.bloque5izq1-sup1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #FAFAFF;
+    height: 42.5%;
+    width: 45%;
+    margin: 2.5%;
+    padding-bottom: 2.5%;
+}
+
+.parte1bloq5{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.contenedoricono5{
+    background-color: #F1F5FF;
+    border-radius: 2px;
+    display: flex;
+    height: 50px;
+    width: 50px;
+    margin-left: 8%;
+    margin-right: 10%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bloq5icono5{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icono5{
+width: 40px;
+height: 40px;
+}
+
+.textos{
+    margin-right: 10%;
+    width: 50%;
+}
+
+h3, .subbloq5{
+    text-align: left;
+font-family: 'Poppins', sans-serif;
+font-weight: 500;
+font-size: 20px;
+color: #274577;
+}
+
+.pbloq5inf{
+    margin-top: -10%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #748198;
+    font-size: 15px;
+}
+
+.botonbloq5{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-left: 5%;
+    width: 90%;
+    background-color: #F1F5FF;
+    color: #2f4fcc;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    height: 50px;
+}
+
+
+
+.bloque5izq-sup2{
+    display: flex;
+    background-color: #2C4CCA;
+    height: 500px;
+}
+
+/* Bloque 6 */
+.bloque6{
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.bloq6-sup{
+    display: flex;
+    width: 100%;
+}
+
+.bloque6-izq{
+    width: 50%;
+}
+
+h4, .bloque-izq{
+
+}
+
+p, .bloque-izq{
+    
+}
+
+.bloque6-derecha{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bloque6-derecha-1{
+    text-align: right;
+    width: 33%;
+}
+
+.bloque6-derecha-2{
+    text-align: right;
+    width: 33%;
+}
+
+
+.bloque6-derecha-3{
+    text-align: right;
+    width: 33%;
+}
+
+
+.pie-pagina{
+    display: flex;
+    width: 100%;
+}
+
+
+.pie-izquierda{
+    width: 50%;
+}
+
+.pie-derecha{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pie-derecha-1{
+    width: 33%;
+    text-align: right;
+}
+
+.pie-derecha-2{
+    text-align: right;
+    width: 33%;
+}
+
+
+
+@media (min-width:320px) and (max-width:480px) {
+
+    .nombre_pagina {
+        font-size: 11px;
+    }
+
+    .lista {
+        font-size: 13px;
+    }
+
+    .bloque1 {
+        height: 500px
+    }
+
+    .titulo1 {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    .bloque1-izquierda {
+        font-size: 13px;
+    }
+
+    .iconos1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .marcador3 {
+        font-size: 13px;
+    }
+
+    .p1 {
+        line-height: 1.5;
+        padding-right: 9px;
+        margin-top: -10px;
+        margin-bottom: -2px;
+    }
+
+    .bloquemedio1 {
+        width: 300px;
+        font-size: 10px;
+        left: 27px;
+        top: 500px;
+        height: 80px;
+    }
+
+    .Submit {
+        font-size: 10px;
+        margin-top: -25px;
+    }
+
+    img.icono1 {
+        width: 15px;
+        height: 15px;
+    }
+
+    .boton1,
+    .boton2,
+    .boton3 {
+        margin-bottom: -16px;
+    }
+
+    .contenedor3 {
+        width: 30px;
+        height: 20px;
+    }
+
+    .bloque2{
+        height: 50px;
+    }
+
+    img.vacunas{
+        width: 300px;
+    }
+
+    .bloque3{
+        height: 350px;
+    }
+
+    .titulobloque3{
+        font-size: 16px;
+        width: 300px;
+    }
+
+    .parrafobloque3{
+        font-size: 13px;
+        width: 250px;
+    }
+
+    .cuatrominibloq1{
+        width: 55px;
+        height: 220px;
+    }
+
+    .cuatrosubtitulo{
+        font-size: 8px;
+    }
+
+    #farming-antibodies{
+        margin-bottom: 17px;
+    }
+
+    .cuatroparrafo{
+        font-size: 8px;
+    }
+
+
+    .subbloq4{
+        font-size: 16px;
+        height: 120px;
+    }
+
+    .pbloq4{
+        height: 210px;
+        font-size: 13px;
+    }
+
+    .cajabloq4{
+        width: 100%;
+        margin-top: 8px;
+        height:40px;
+    }
+
+    .subcajabloq4{
+    font-size: 8px;
+    }
+
+    .bloque5-superior{
+        height: 400px;
+        margin-bottom: -100px;
+    }
+
+
+    .bloque5-derecha2{
+    position:relative;
+    height: 300px;
+    }
+    
+    .bloq5doctor{
+        height: 140%;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 2px;
+
+    }
+
+    .pbloque5sup{
+        font-size: 13px;
+        margin-top: -10px;
+    }
+
+    .bloque5izq1-sup1{
+        height: 42.5%;
+        width: 46%;
+        margin: 1%;
+        padding-bottom: 2.5%;
+    }
+    .contenedoricono5{
+        height: 20px;
+        width: 20px;
+        margin-left: 5%;
+        margin-right: 5%;
+
+    }
+
+    .icono5{
+    width: 15px;
+    height: 15px;
+    }
+
+    h3, .subbloq5{
+    font-size: 6px;
+    }
+    
+    .pbloq5inf{
+        margin-top: -10%;
+        font-size: 6px;
+    }
+    
+
+    .botonbloq5{
+        margin-left: 5%;
+        width: 90%;
+        font-size: 7px;
+        height: 10px;
+    }
+    
+
+
+}
+
+@media (min-width: 481px) and (max-width:568px){
+    .titulo1{
+        font-size: 18px;
+        margin-bottom: -5px;
+    }
+    
+    .bloque1{
+        height: 620px;
+    }
+
+    .bloquemedio1{
+        top: 580px;
+        left: 40px;
+        width: 400px;
+    }
+
+    .bloque2{
+        height: 60px;
+    }
+
+    img.vacunas{
+        width: 400px;
+    }
+
+    
+    .bloque3{
+        height: 350px;
+    }
+
+    .titulobloque3{
+        font-size: 16px;
+        width: 300px;
+    }
+
+    .parrafobloque3{
+        font-size: 13px;
+        width: 270px;
+    }
+
+    .cuatrominibloq1{
+        width: 75px;
+        height: 220px;
+    }
+
+    .cuatrosubtitulo{
+        font-size: 11px;
+    }
+
+    #farming-antibodies{
+        margin-bottom: 21px;
+    }
+
+    .cuatroparrafo{
+        font-size: 10px;
+    }
+
+    .bloque4{
+        height: 530px;
+    }
+    
+    .subbloq4{
+        font-size: 16px;
+        height: 120px;
+        margin-bottom: -20px;
+    }
+
+    .pbloq4{
+        height: 210px;
+        font-size: 13px;
+        margin-bottom: -15px;
+    }
+
+    .cajabloq4{
+        width: 100%;
+        margin-top: 8px;
+        height:40px;
+    }
+
+    .subcajabloq4{
+    font-size: 8px;
+    }
+
+    .bloque5-superior{
+        height: 400px;
+        margin-bottom: -150px;
+    }
+
+
+    .bloque5-derecha2{
+    position:relative;
+    height: 300px;
+    }
+    
+    .bloq5doctor{
+        height: 160%;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 2px;
+
+    }
+
+    .pbloque5sup{
+        font-size: 13px;
+        margin-top: -10px;
+    }
+
+    .bloque5izq1-sup1{
+        height: 70px;
+        width: 50%;
+        margin: 1%;
+        padding-bottom: 2.5%;
+    }
+    .contenedoricono5{
+        height: 25px;
+        width: 25px;
+        margin-left: 5%;
+        margin-right: 5%;
+
+    }
+
+    .icono5{
+    width: 20px;
+    height: 20px;
+    }
+
+    h3, .subbloq5{
+    font-size: 9px;
+    }
+    
+    .pbloq5inf{
+        margin-top: -10%;
+        font-size: 10px;
+    }
+    
+
+    .botonbloq5{
+        margin-left: 5%;
+        width: 90%;
+        font-size: 10px;
+        height: 14px;
+    }
+    
+
+
+
+}
+
+
+@media (min-width: 569px) and (max-width:1000px) {
+    .bloque1{
+        height: 580px;
+    }
+    
+    .bloquemedio1{
+        top: 580px;
+        width: 500px;
+        left: 40px;
+    }
+
+
+    img.vacunas{
+        width: 550px;
+    }
+
+    .bloque2{
+        height: 90px;
+    }
+
+    .bloque3{
+        height: 400px;
+    }
+
+    .titulobloque3{
+        font-size: 18px;
+        width: 330px;
+    }
+
+    .parrafobloque3{
+        font-size: 14px;
+        width: 300px;
+    }
+
+    .cuatrominibloq1{
+        width: 305px;
+        height: 260px;
+    }
+
+    .cuatrosubtitulo{
+        font-size: 13px;
+    }
+
+    #farming-antibodies{
+        margin-bottom: 28px;
+    }
+
+    .cuatroparrafo{
+        font-size: 12px;
+    }
+
+    .bloque4{
+        height: 520px;
+    }
+    
+    .subbloq4{
+        font-size: 16px;
+        height: 120px;
+        margin-bottom: -20px;
+    }
+
+    .pbloq4{
+        height: 210px;
+        font-size: 13px;
+        margin-bottom: -15px;
+    }
+
+    .cajabloq4{
+        width: 90%;
+        margin-top: 8px;
+        height:40px;
+    }
+
+    .subcajabloq4{
+    font-size: 8px;
+    }
+
+    .bloque5-superior{
+        height: 400px;
+        margin-bottom: -150px;
+    }
+
+
+    .bloque5-derecha2{
+    position:relative;
+    height: 300px;
+    }
+    
+    .bloq5doctor{
+        height: 160%;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 2px;
+
+    }
+
+    .pbloque5sup{
+        font-size: 14px;
+        margin-top: -10px;
+    }
+
+    .bloque5izq1-sup1{
+        height: 70px;
+        width: 50%;
+        margin: 1%;
+        padding-bottom: 2.5%;
+    }
+    .contenedoricono5{
+        height: 27px;
+        width: 27px;
+        margin-left: 5%;
+        margin-right: 5%;
+
+    }
+
+    .icono5{
+    width: 22px;
+    height: 22px;
+    }
+
+    h3, .subbloq5{
+    font-size: 11px;
+    }
+    
+    .pbloq5inf{
+        margin-top: -10%;
+        font-size: 11px;
+    }
+    
+
+    .botonbloq5{
+        margin-left: 5%;
+        width: 90%;
+        font-size: 10px;
+        height: 16px;
+    }
+    
+
+}
+
+
+
+
+
+
+
